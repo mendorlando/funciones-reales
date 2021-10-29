@@ -1,0 +1,10 @@
+% t / 2-t
+paquete de  carga simbólico
+syms  x
+x = linspace (- 10 , 10 );
+y = ( x ) ./ ( 2 - x )
+trama ( x , y )
+cuadrícula  en
+ylabel ( ' y ' )
+xlabel ( ' x ' )
+title ( ' raiz (0,0), dominio t = / 2, intercepcion vertical (0,0) ' )

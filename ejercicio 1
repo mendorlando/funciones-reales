@@ -1,0 +1,11 @@
+% f (x) = 1 +? x-4
+claro
+paquete de  carga simbólico
+syms  x
+x = [ 4 : 1 : 15 ]
+y =  1 + ( raíz cuadrada ( x - 4 ));
+trama ( x , y )
+cuadrícula  en
+ylabel ( ' y ' )
+xlabel ( ' x ' )
+title ( ' dominio x> = 4, rango yE [1, + oo), minimo (4,1) ' )

@@ -1,0 +1,12 @@
+% funcion cuadratica
+% f (X) = 1 + x ^ 2
+claro
+paquete de  carga simbólico
+syms  x
+x = [- 5 : 1 : 5 ]
+y = 1 + x . ^ 2
+trama ( x , y )
+cuadrícula  en
+ylabel ( ' y ' )
+xlabel ( ' x ' )
+title ( ' dominio xE R, rango yE [1, + oo), minimo (0,1) ' )
